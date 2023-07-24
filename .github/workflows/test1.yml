@@ -1,0 +1,11 @@
+on:
+  push:
+  
+jobs:
+  nombre1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hola martin"
+      - run: | 
+          echo "hola martin nuevamente"
+          echo "adios martin"
